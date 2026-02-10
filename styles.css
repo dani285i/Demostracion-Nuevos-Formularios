@@ -32,7 +32,7 @@ body {
 form {
     display: flex;
     gap: 1vw;
-    width: 30vh;
+    width: auto;
 }
 
 #search-input {
