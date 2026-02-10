@@ -29,6 +29,4 @@ El código se ha estructurado en un ejemplo de interfaz de usuario que incluye:
 ## Requisitos de Visualización
 Debido a la naturaleza reciente de estas especificaciones, para una correcta visualización de la propiedad `field-sizing`, se recomienda utilizar versiones de navegadores basadas en Chromium (Chrome, Edge o Brave) superiores a la versión 123. En navegadores que no soporten estas propiedades, el sistema aplicará una degradación elegante (progressive enhancement), manteniendo la funcionalidad básica con dimensiones estáticas.
 
-## Autor
-[Tu Nombre y Apellidos]
-Fecha de entrega: Febrero 2026
+Daniel Gómez Aradas
