@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración: Novedades HTML/CSS</title>
+    <link rel="stylesheet" href="./styles.css" blocking="render">
+</head>
+<body>
+
+    <header>
+        <h1>Ejemplo Field-Sizing</h1>
+        <search id="search">
+            <form action="#">
+                <input type="search" placeholder="Buscar temas..." name="q" id="search-input">
+                <button type="submit" id="search-button">Buscar</button>
+            </form>
+        </search>
+    </header>
+
+    <main>
+        <section class="comment-section">
+            <h2>Deja un comentario</h2>
+            <p>Mira cómo el input crece mientras escribo (y sin JavaScript):</p>
+            
+            <textarea 
+                id="comment" 
+                placeholder="Escribe aquí tu opinión..." 
+                rows="1"></textarea>
+            
+            <button class="btn-send">Enviar Comentario</button>
+        </section>
+    </main>
+
+</body>
+</html>
